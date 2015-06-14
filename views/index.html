@@ -1,0 +1,32 @@
+<html ng-app="photoShow" ng-controller="ImageCtrl">
+
+<head>
+    <title>Photo Show</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/base.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="top">
+    <!-- start container -->
+    <div class="container ng-cloak">
+
+        <!-- content -->
+        <div class="panel">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <img class="img-responsive" ng-src="{{image.name}}" />
+                </div>
+            </div>
+        </div>
+
+        <!-- end container -->
+    </div>
+
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ramda/0.13.0/ramda.min.js"></script>
+    <script src="/app/app.js"></script>
+    <script src="/controllers/image.js"></script>
+</body>
+
+</html>
