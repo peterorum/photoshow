@@ -29,7 +29,7 @@
                 $interval(function()
                 {
                     showImage();
-                }, 15000);
+                }, 60000);
             }
         ]);
 

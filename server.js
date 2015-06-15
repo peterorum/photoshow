@@ -26,13 +26,14 @@
 
         // config
 
-        var imagesFolder = "/Users/peterorum/Dropbox/Photos/B&W";
+        // var imagesFolder = "/Users/peterorum/Dropbox/Photos/B&W";
+        var imagesFolder = "/Volumes/Users/Peter/Pictures/Photos/2015";
 
         var sendFile = function(res, filename)
         {
             var folder;
 
-            if (/jpg$/.test(filename))
+            if (/(png|jpg)$/.test(filename))
             {
                 folder = imagesFolder;
             }
